@@ -1,8 +1,13 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function Header() {
   // Store the navigation items in an array
-    const navItems =  ['Home', 'Services', 'About', 'Contact'];
+  const navItems = [
+    { name: 'Hero', path: '/' },
+    { name: 'Services', path: '/services' },
+    { name: 'About', path: '/about' },
+    { name: 'Contact', path: '/contact' }
+  ];
 
 return (
     <header className="bg-white shadow-md">
@@ -12,8 +17,8 @@ return (
         </div>
         <ul className="flex space-x-6">
         {navItems.map((item) => (
-            <li key={item} className="text-gray-700 hover:text-gray-900 font-medium">
-            {item}
+            <li key={item.name} className="text-gray-700 hover:text-gray-900 font-medium">
+             <Link to={item.path}>{item.name}</Link>
             </li>
         ))}
         </ul>
