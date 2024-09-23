@@ -1,7 +1,11 @@
 import React from 'react';
-
+import { Helmet } from 'react-helmet';
 function About() {
     return (
+      <>
+      <Helmet>
+        <title>About US - Ibex 🐐</title>
+      </Helmet>
       <section id="about" className="py-16 bg-white">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">About Us</h2>
@@ -13,7 +17,9 @@ function About() {
             on delivering excellence.
           </p>
         </div>
+       
       </section>
+      </>
     );
   };
   

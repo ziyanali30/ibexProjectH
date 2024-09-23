@@ -1,6 +1,12 @@
+import { Helmet } from 'react-helmet';
+
 function Hero() {
 
     return (
+        <>
+<Helmet>
+        <title>🏠Home - Ibex 🐐</title>
+      </Helmet>
         <section className="relative bg-cover bg-center h-screen" style={{ backgroundImage: "url('bgLogo.jpg')" }}>
           <div className="absolute inset-0 bg-black opacity-50"></div> {/* Dark overlay */}
         <div className="container mx-auto relative z-10 text-center text-white flex flex-col justify-center h-full">
@@ -11,6 +17,7 @@ function Hero() {
             </button>
         </div>
         </section>
+        </>
     );
 };
 export default Hero;

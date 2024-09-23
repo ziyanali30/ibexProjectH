@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Helmet } from 'react-helmet';
 function Services() {
     const services = [
         {
@@ -17,6 +17,10 @@ function Services() {
       ];
     
       return (
+        <>
+        <Helmet>
+          <title>Services - Ibex 🐐</title>
+        </Helmet>
         <section id="services" className="py-16 bg-gray-100">
           <div className="container mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8">Our Services</h2>
@@ -30,6 +34,7 @@ function Services() {
             </div>
           </div>
         </section>
+        </>
       );
     };
     

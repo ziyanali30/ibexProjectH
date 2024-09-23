@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   // Store the navigation items in an array
   const navItems = [
-    { name: 'Hero', path: '/' },
+    { name: 'Home', path: '/' },
     { name: 'Services', path: '/services' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' }
