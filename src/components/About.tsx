@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 function About() {
     return (
@@ -6,19 +7,54 @@ function About() {
       <Helmet>
         <title>About US - Ibex 🐐</title>
       </Helmet>
-      <section id="about" className="py-16 bg-white">
-        <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">About Us</h2>
-          <p className="text-gray-700 max-w-2xl mx-auto">
-            Ibex is a global leader in customer engagement solutions. Our mission
-            is to provide exceptional services that help our clients build
-            stronger relationships with their customers. We specialize in
-            customer support, technical support, and sales support, with a focus
-            on delivering excellence.
-          </p>
+      <section className="py-12 bg-gray-100">
+      <div className="container mx-auto px-4">
+      <motion.h2
+          className="text-4xl font-bold text-center mb-8"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          About Ibex
+        </motion.h2>
+        <motion.p
+          className="text-lg text-center text-gray-600 max-w-2xl mx-auto mb-8"
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+        >
+          At Ibex, we redefine customer engagement strategies to ensure the success of our partners. Our solutions are crafted to deliver innovation, efficiency, and outstanding customer experiences.
+        </motion.p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          <motion.div className="bg-white shadow-lg rounded-lg p-6 text-center"
+          initial={{ opacity: 0, scale: 0.8 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          >
+            <h3 className="text-xl font-semibold mb-2">Global Presence</h3>
+            <p className="text-gray-600">With operations in over 20 countries, we are truly a global leader.</p>
+          </motion.div>
+          
+          <motion.div className="bg-white shadow-lg rounded-lg p-6 text-center"
+          initial={{ opacity: 0, scale: 0.8 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.5 }}>
+            <h3 className="text-xl font-semibold mb-2">Innovative Solutions</h3>
+            <p className="text-gray-600">Our cutting-edge technology drives efficiency in all sectors.</p>
+          </motion.div>
+
+          <motion.div className="bg-white shadow-lg rounded-lg p-6 text-center"
+          initial={{ opacity: 0, scale: 0.8 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.5 }}>
+            <h3 className="text-xl font-semibold mb-2">Award-Winning Support</h3>
+            <p className="text-gray-600">Our customer support has won numerous awards across the globe.</p>
+          </motion.div>
         </div>
-       
-      </section>
+      </div>
+    </section>
       </>
     );
   };
