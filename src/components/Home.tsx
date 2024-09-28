@@ -6,11 +6,11 @@ import Contact from '../components/Contact';
 import Hero from '../components/Hero';
 function Home(){
   return (
-    <section>
+    <section >
       <Hero/>
       <Services />
-      <About />
       <Testimonials />
+      <About />
       <Contact />
     </section>
   );
