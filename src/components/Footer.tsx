@@ -14,7 +14,7 @@ function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="/" className="hover:underline">Home</a></li>
+            <li><a href="/home" className="hover:underline">Home</a></li>
             <li><a href="/about" className="hover:underline">About</a></li>
             <li><a href="/services" className="hover:underline">Services</a></li>
             <li><a href="/contact" className="hover:underline">Contact</a></li>

@@ -30,7 +30,7 @@ function Services() {
                      transition={{ duration: 0.8, delay: 0.2 }}>
                     {service.icon}
                     </motion.div>
-                  <motion.h3 className="text-6xl font-semibold mb-4" 
+                  <motion.h3 className="text-4xl font-semibold mb-4" 
                        initial={{ opacity: 0, scale: 0.8 }}
                        whileInView={{ opacity: 1, scale: 1 }}
                        transition={{ duration: 0.8, delay: 0.2 }}>
