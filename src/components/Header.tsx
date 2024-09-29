@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi'; // Importing icons for dark mode and menu
+import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
 
 function Header() {
   const navItems = ['Home', 'Services', 'About', 'Contact'];
   const [darkMode, setDarkMode] = useState(true);
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // State for mobile menu visibility
-  const menuRef = useRef(null); // Reference to the mobile menu
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef(null);
 
   const toggleDarkMode = () => {
     const root = window.document.documentElement;
@@ -39,7 +39,7 @@ function Header() {
   }, []);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+    setIsMenuOpen((prev) => !prev);
   };
 
   // Close menu when clicking outside of it
@@ -50,19 +50,33 @@ function Header() {
       }
     };
 
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isMenuOpen]);
+
+  // Close menu on scroll
+  useEffect(() => {
     const handleScroll = () => {
       if (isMenuOpen) {
         setIsMenuOpen(false);
       }
     };
 
-    document.addEventListener('mousedown', handleClickOutside);
     window.addEventListener('scroll', handleScroll);
-
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
       window.removeEventListener('scroll', handleScroll);
     };
+  }, [isMenuOpen]);
+
+  // Disable body scroll when menu is open
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden'; // Disable scrolling
+    } else {
+      document.body.style.overflow = ''; // Enable scrolling
+    }
   }, [isMenuOpen]);
 
   return (
@@ -83,9 +97,9 @@ function Header() {
         <ul className="hidden md:flex space-x-6 text-lightText dark:text-darkText items-center">
           <button onClick={toggleDarkMode} className="focus:outline-none">
             {darkMode ? (
-              <FiSun className="w-6 h-6 text-yellow-500" /> // Sun icon for light mode
+              <FiSun className="w-6 h-6 text-yellow-500" />
             ) : (
-              <FiMoon className="w-6 h-6 text-gray-500 dark:hover:text-white" /> // Moon icon for dark mode
+              <FiMoon className="w-6 h-6 text-gray-500 dark:hover:text-white" />
             )}
           </button>
           {navItems.map((item) => (
@@ -105,11 +119,19 @@ function Header() {
 
       {/* Mobile Menu */}
       <ul
-        ref={menuRef} // Attach the ref to the mobile menu
+        ref={menuRef}
         className={`${
           isMenuOpen ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'
-        } md:hidden overflow-hidden transition-all duration-300 ease-in-out bg-lightBg dark:bg-darkBg shadow-lg`}
+        } md:hidden overflow-hidden transition-all duration-300 ease-in-out bg-lightBg dark:bg-darkBg shadow-lg fixed top-0 left-0 w-full z-50`}
+        style={{
+          transform: isMenuOpen ? 'translateY(0)' : 'translateY(-100%)', // Slide down effect
+          transition: 'transform 0.3s ease-in-out',
+        }}
       >
+        {/* Close Button on the Left Side */}
+        <button onClick={toggleMenu} className="absolute top-2 left-2 text-gray-500 dark:text-white">
+          <FiX className="w-8 h-8" />
+        </button>
         <button onClick={toggleDarkMode} className="focus:outline-none p-4">
           {darkMode ? (
             <FiSun className="w-6 h-6 text-yellow-500 mx-auto" />
