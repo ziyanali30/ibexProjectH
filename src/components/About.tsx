@@ -35,7 +35,7 @@ function About() {
             About Ibex
           </motion.h2>
           <motion.p
-            className="text-lg text-center text-gray-600 dark:text-darkText max-w-2xl mx-auto mb-8"
+            className="text-lg text-center text-gray-600  dark:text-darkText max-w-2xl mx-auto mb-8"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
