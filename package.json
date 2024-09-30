@@ -3,11 +3,9 @@
   "version": "0.0.1",
   "homepage": "https://ziyanali30.github.io/ibexProjectH",
   "scripts": {
-    "install": "npm install",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "aos": "^2.3.4",
