@@ -27,7 +27,7 @@ function Hero() {
               loop
               muted
             >
-              <source src="/ibexProjectH/sample.mp4" type="video/mp4" />
+              <source src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/sample.mp4?t=2024-09-30T01%3A57%3A53.489Z" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
