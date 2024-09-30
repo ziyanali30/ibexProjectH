@@ -48,7 +48,7 @@ function Hero() {
               {/* Sample Icons */}
               <div className="flex flex-col items-center">
                 <img
-                  src="big-triangle.svg"
+                  src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/big-triangle.svg?t=2024-09-30T02%3A03%3A00.416Z"
                   alt="Icon 1"
                   className="w-12 h-12 mb-2"
                 />
@@ -56,14 +56,14 @@ function Hero() {
               </div>
               <div className="flex flex-col items-center">
                 <img
-                  src="down-arrow.svg"
+                  src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/down-arrow.svg?t=2024-09-30T02%3A02%3A29.925Z"
                   alt="Icon 2"
                   className="w-12 h-12 mb-2"
                 />
                 <span className="text-gray-600 dark:text-darkText">Reduced Costs</span>
               </div>
               <div className="flex flex-col items-center">
-                <img src="dollar.svg" alt="Icon 3" className="w-12 h-12 mb-2" />
+                <img src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/dollar.svg?t=2024-09-30T02%3A02%3A06.821Z" alt="Icon 3" className="w-12 h-12 mb-2" />
                 <span className="text-gray-600 dark:text-darkText">More revenue</span>
               </div>
             </div>
