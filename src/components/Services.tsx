@@ -14,8 +14,8 @@ function Services() {
           <title>Services - Ibex 🐐</title>
         </Helmet>
         <section id="services" className="py-16 bg-gray-100  w-full  dark:bg-gray-800  ">
-          <div className="container-fluid mx-auto px- dark:bg-gray-800  ">
-            <motion.h2 className="text-4xl font-bold text-center mb-8 " 
+          <div className="container-fluid mx-auto dark:bg-gray-800  ">
+            <motion.h2 className="text-4xl font-bold text-center mb-8 text-black dark:text-darkText" 
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}>
