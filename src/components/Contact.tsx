@@ -23,14 +23,14 @@ function Contact() {
       <Helmet>
         <title>Contact US - Ibex 🐐</title>
       </Helmet>
-        <section id="contact" className="py-16 bg-gray-100">
-        <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">Contact Us</h2>
-          <p className="text-gray-700 mb-12 max-w-lg mx-auto">
+        <section id="contact" className="py-16 bg-gray-100 dark:bg-darkBg" w-full>
+        <div className="container-fluid mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-8 dark:text-darkText">Contact Us</h2>
+          <p className="text-gray-700 mb-12 max-w-lg mx-auto dark:text-darkText">
             Have questions or need assistance? Feel free to reach out to us!
           </p>
           
-          <form onSubmit={handleSubmit} className="max-w-lg mx-auto bg-white p-8 shadow-lg rounded-lg">
+          <form onSubmit={handleSubmit} className="max-w-3xl mx-auto bg-white p-8 shadow-lg rounded-lg">
             <div className="mb-6">
               <label className="block text-left font-medium text-gray-700 mb-2">Name</label>
               <input
