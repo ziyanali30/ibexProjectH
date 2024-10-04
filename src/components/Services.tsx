@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 function Services() {
   const services = [
-    { title: 'Customer Support', description: 'Best-in-class customer engagement services.', icon: '🛎️' },
+    { title: 'IT Solutions', description: 'Comprehensive IT support for all needs.', icon: '🖥️' },
     { title: 'Sales', description: 'Enhancing sales strategies to maximize revenue.', icon: '💼' },
     { title: 'Technical Support', description: 'Comprehensive technical support for all needs.', icon: '🔧' },
   ];
