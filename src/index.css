@@ -2,18 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-html, body {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
-  /* .. */
-=======
 html,
 body {
   padding: 0;
   margin: 0;
   width: 100%;
 }
->>>>>>> b07b170c0495b7d7ba6996b7ab0d4be60ed3f3cd
