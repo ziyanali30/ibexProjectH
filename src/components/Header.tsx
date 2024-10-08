@@ -83,11 +83,7 @@ function Header() {
     <header className="bg-lightBg dark:bg-darkBg dark:text-darkText shadow-md sticky top-0 z-50">
       <nav className="w-full px-6 flex justify-between items-center py-4">
         <div className="logo hidden md:block">
-<<<<<<< HEAD
-          <img src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/logo.jpg" alt="Ibex Logo" className="w-36" />
-=======
           <img src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/logo.jpg" alt="AXIMO Logo" className="w-36" />
->>>>>>> b07b170c0495b7d7ba6996b7ab0d4be60ed3f3cd
         </div>
 
         {/* Hamburger Menu Button (visible on small screens) */}
