@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 function Services() {
   const services = [
-    { title: 'Customer Support', description: 'Best-in-class customer engagement services.', icon: '🛎️' },
+    { title: 'IT Solutions', description: 'Comprehensive IT support for all needs.', icon: '🖥️' },
     { title: 'Sales', description: 'Enhancing sales strategies to maximize revenue.', icon: '💼' },
     { title: 'Technical Support', description: 'Comprehensive technical support for all needs.', icon: '🔧' },
   ];
@@ -11,11 +11,11 @@ function Services() {
       return (
         <>
         <Helmet>
-          <title>Services - Ibex 🐐</title>
+          <title>Services - AXIMO 🐐</title>
         </Helmet>
         <section id="services" className="py-16 bg-gray-100  w-full  dark:bg-gray-800  ">
-          <div className="container-fluid mx-auto px- dark:bg-gray-800  ">
-            <motion.h2 className="text-4xl font-bold text-center mb-8 " 
+          <div className="container-fluid mx-auto dark:bg-gray-800  ">
+            <motion.h2 className="text-4xl font-bold text-center mb-8 text-black dark:text-darkText" 
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}>

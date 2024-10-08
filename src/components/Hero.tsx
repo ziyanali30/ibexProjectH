@@ -13,7 +13,7 @@ function Hero() {
   return (
     <>
       <Helmet>
-        <title>🏠Home - Ibex 🐐</title>
+        <title>🏠Home - AXIMO 🐐</title>
       </Helmet>
       <section className="w-full h-screen bg-gray-100 dark:bg-darkBg flex items-center justify-center ">
         
@@ -27,7 +27,11 @@ function Hero() {
               loop
               muted
             >
+<<<<<<< HEAD
               <source src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/sample.mp4?t=2024-09-30T01%3A57%3A53.489Z" type="video/mp4" />
+=======
+              <source src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/sample.mp4?t=2024-10-08T01%3A39%3A34.499Z" type="video/mp4" />
+>>>>>>> b07b170c0495b7d7ba6996b7ab0d4be60ed3f3cd
               Your browser does not support the video tag.
             </video>
           </div>
