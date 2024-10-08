@@ -4,9 +4,9 @@ function Footer() {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Branding and Logo Section */}
         <div>
-          <img src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/logo.jpg" alt="Ibex Logo" className="w-32 mb-4" />
+          <img src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/logo.jpg" alt="AXIMO Logo" className="w-32 mb-4" />
           <p className="text-sm">
-            Ibex helps businesses achieve exceptional customer engagement and drive growth.
+            AXIMO helps businesses achieve exceptional customer engagement and drive growth.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ function Footer() {
           <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-2">
             <li>Phone: +1-800-123-4567</li>
-            <li>Email: contact@ibex.co</li>
+            <li>Email: contact@AXIMO.co</li>
           </ul>
           <div className="mt-4 flex space-x-4">
             {/* Social Media Icons */}
@@ -46,7 +46,7 @@ function Footer() {
 
       {/* Footer Bottom Section */}
       <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm">
-        <p>&copy; 2024 Ibex. All rights reserved.</p>
+        <p>&copy; 2024 AXIMO. All rights reserved.</p>
         <p>
           <a href="/terms" className="hover:underline">Terms of Service</a> |{' '}
           <a href="/privacy" className="hover:underline">Privacy Policy</a>

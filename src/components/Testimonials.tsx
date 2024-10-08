@@ -7,25 +7,25 @@ function Testimonials() {
       name: "John Doe",
       position: "CEO, Acme Corp",
       feedback:
-        "Ibex has transformed the way we engage with our customers. Their solutions are top-notch!",
+        "AXIMO has transformed the way we engage with our customers. Their solutions are top-notch!",
     },
     {
       name: "Jane Smith",
       position: "CTO, Beta Inc",
       feedback:
-        "The level of innovation and efficiency Ibex brings to the table is unmatched.",
+        "The level of innovation and efficiency AXIMO brings to the table is unmatched.",
     },
     {
       name: "Emily Johnson",
       position: "CMO, Gamma LLC",
       feedback:
-        "Our customer satisfaction has increased dramatically thanks to Ibex.",
+        "Our customer satisfaction has increased dramatically thanks to AXIMO.",
     },
   ];
   return (
     <>
       <Helmet>
-        <title>Testimonials - Ibex 🐐</title>
+        <title>Testimonials - AXIMO 🐐</title>
       </Helmet>
       <section
         className="py-12 bg-white dark:bg-darkBg w-full"

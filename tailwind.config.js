@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Open Sans"', 'Arial', 'sans-serif'], // Adjust this based on the Ibex font
+        sans: ['"Open Sans"', 'Arial', 'sans-serif'], // Adjust this based on the AXIMO font
       },
       colors: {
         primary: '#EF3340', // Red color for the underlining effect

@@ -11,7 +11,7 @@ function Services() {
       return (
         <>
         <Helmet>
-          <title>Services - Ibex 🐐</title>
+          <title>Services - AXIMO 🐐</title>
         </Helmet>
         <section id="services" className="py-16 bg-gray-100  w-full  dark:bg-gray-800  ">
           <div className="container-fluid mx-auto dark:bg-gray-800  ">
