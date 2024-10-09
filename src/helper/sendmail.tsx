@@ -9,6 +9,7 @@ export async function sendemail(name:string,email:string,message:string){
             to_name:"test",
             to_email:String(emails.email[sendemail]),
             from_name: name,
+            reply_to:email,
             message: message,
           };
           

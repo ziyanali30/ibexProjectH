@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import supabaseClient from '../helper/supabase';
 import { sendemail } from '../helper/sendmail';
+import { toast } from 'react-toastify';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -32,7 +33,14 @@ function Contact() {
               });
             const emails= await sendemail(formData.name,formData.email,formData.message);
           }
-          alert('Form submitted successfully!');
+          toast.success('Form submitted successfully!', {
+            position: 'top-right', // Use string literals for position
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+          });
           // console.log('Inserted data:', data);
           // Clear the form after successful submission
           setFormData({ name: '', email: '', message: '' });
