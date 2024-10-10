@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 function Services() {
   const services = [
     { title: 'IT Solutions', description: 'Comprehensive IT support for all needs.', icon: '🖥️', link: '/services/IT' },  // Added link property
-    { title: 'BPO Services', description: 'Enhancing sales strategies to maximize revenue.', icon: '💼' },
+    { title: 'BPO Services', description: 'Enhancing sales strategies to maximize revenue.', icon: '💼',link:'/services/bpo' },
     { title: 'Technical Support', description: 'Comprehensive technical support for all needs.', icon: '🔧' },
   ];
     

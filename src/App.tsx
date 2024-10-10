@@ -9,6 +9,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ITSupport from "./components/ITSupport";
+import BPOServices from "./components/BPO";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/services/IT" element={<ITSupport />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/services/bpo" element={<BPOServices />} />
         </Routes>
         <Footer />
       </div>
