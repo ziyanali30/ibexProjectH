@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import AnalyticsComponent from './analytics';
 
 function Services() {
   const services = [

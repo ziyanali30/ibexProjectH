@@ -4,6 +4,7 @@ import About from '../components/About';
 import Testimonials from '../components/Testimonials';
 import Contact from '../components/Contact';
 import Hero from '../components/Hero';
+import AnalyticsComponent from './analytics';
 function Home(){
   return (
     <section >

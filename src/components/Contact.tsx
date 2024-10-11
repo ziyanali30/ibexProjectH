@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import supabaseClient from '../helper/supabase';
 import { sendemail } from '../helper/sendmail';
 import { toast } from 'react-toastify';
+import AnalyticsComponent from './analytics';
 
 function Contact() {
   const [formData, setFormData] = useState({

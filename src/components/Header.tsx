@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
 
+
 function Header() {
   const navItems = ['Home', 'Services', 'About', 'Contact'];
   const [darkMode, setDarkMode] = useState(true);

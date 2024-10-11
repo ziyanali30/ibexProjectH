@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 import Testimonials from './Testimonials'; // Import the Testimonials component
 import Contact from './Contact';
+import AnalyticsComponent from './analytics';
 
 const ITSupport: React.FC = () => {
   const itServices = [
