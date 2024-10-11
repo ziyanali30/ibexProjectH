@@ -48,7 +48,7 @@ function Hero() {
               {/* Sample Icons */}
               <div className="flex flex-col items-center">
                 <img
-                  src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/big-triangle.svg?t=2024-09-30T02%3A03%3A00.416Z"
+                  src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/big-triangle.svg"
                   alt="Icon 1"
                   className="w-12 h-12 mb-2"
                 />

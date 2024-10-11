@@ -4,7 +4,7 @@ function Footer() {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Branding and Logo Section */}
         <div>
-          <img src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/logonew.jpg" alt="AXIMO Logo" className="w-32 mb-4" />
+          <img src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/newlogo.png?t=2024-10-11T20%3A28%3A42.085Z" alt="AXIMO Logo" className="w-32 mb-4" />
           <p className="text-sm">
             AXIMO helps businesses achieve exceptional customer engagement and drive growth.
           </p>

@@ -84,7 +84,7 @@ function Header() {
     <header className="bg-lightBg dark:bg-darkBg dark:text-darkText shadow-md sticky top-0 z-50">
       <nav className="w-full px-6 flex justify-between items-center py-4">
         <div className="logo hidden md:block">
-          <img src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/logonew.jpg" alt="AXIMO Logo" className="w-36" />
+          <img src="https://derhjzjgqhzkqefjmrer.supabase.co/storage/v1/object/public/assets/newlogo.png?t=2024-10-11T20%3A28%3A42.085Z" alt="AXIMO Logo" className="w-36" />
         </div>
 
         {/* Hamburger Menu Button (visible on small screens) */}
