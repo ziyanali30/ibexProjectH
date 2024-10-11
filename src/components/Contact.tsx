@@ -112,7 +112,7 @@ function Contact() {
 
             <button
               type="submit"
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg"
+              className="w-full bg-black hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-lg text-lg"
             >
               Send Message
             </button>
