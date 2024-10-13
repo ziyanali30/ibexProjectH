@@ -26,8 +26,8 @@ function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-2">
-            <li>Phone: +971-54-5387697</li>
-            <li>Email: contact@aximosolutions.net</li>
+            <li>Phone: <a href={`https://wa.me/+971545387697?text="Hello I would Like to talk"`}>+971-54-5387697</a></li>
+            <li>Email: <a href="mailto:contact@aximosolutions.net">contact@aximosolutions.net</a></li>
           </ul>
           <div className="mt-4 flex space-x-4">
             {/* Social Media Icons */}
