@@ -57,7 +57,7 @@ const BPOServices: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>BPO Services - AXIMO 🐐</title>
+        <title>BPO Services - AXIMO </title>
       </Helmet>
 
       <section className="py-16 bg-gray-100 w-full dark:bg-gray-800">

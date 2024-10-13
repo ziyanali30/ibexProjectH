@@ -58,7 +58,7 @@ function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact US - AXIMO 🐐</title>
+        <title>Contact US - AXIMO</title>
       </Helmet>
       <section id="contact" className="py-16 bg-gray-100 dark:bg-darkBg" w-full>
         <div className="container-fluid mx-auto text-center">

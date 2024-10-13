@@ -22,7 +22,7 @@ function About() {
   return (
     <>
       <Helmet>
-        <title>About US - AXIMO 🐐</title>
+        <title>About US - AXIMO </title>
       </Helmet>
       <section className="py-12 bg-gray-100 dark:bg-darkBg">
         <div className="container mx-auto px-4 dark:text-darkText">

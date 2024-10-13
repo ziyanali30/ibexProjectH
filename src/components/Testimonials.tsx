@@ -25,7 +25,7 @@ function Testimonials() {
   return (
     <>
       <Helmet>
-        <title>Testimonials - AXIMO 🐐</title>
+        <title>Testimonials - AXIMO </title>
       </Helmet>
       <section
         className="py-12 bg-white dark:bg-darkBg w-full"

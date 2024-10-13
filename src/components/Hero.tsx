@@ -13,7 +13,7 @@ function Hero() {
   return (
     <>
       <Helmet>
-        <title>🏠Home - AXIMO 🐐</title>
+        <title>🏠Home - AXIMO </title>
       </Helmet>
       <section className="w-full h-screen bg-gray-100 dark:bg-darkBg flex items-center justify-center ">
         

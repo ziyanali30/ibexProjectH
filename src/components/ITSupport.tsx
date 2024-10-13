@@ -43,7 +43,7 @@ const ITSupport: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>IT Support - AXIMO 🐐</title>
+        <title>IT Support - AXIMO </title>
       </Helmet>
       <section className="py-16 bg-gray-100 w-full dark:bg-gray-800">
         <div className="container mx-auto px-4">
