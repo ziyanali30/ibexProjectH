@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import AnalyticsComponent from "./components/analytics";
 
 // Local GIF path (ensure it's inside the public folder for easy access)
-const localGif = "../public/9idfpr.gif"; // Update the path as per your project structure
+const localGif = "9idfpr.gif"; // Update the path as per your project structure
 
 function RedirectPage() {
   // Randomly choose between the local GIF and external link
@@ -30,7 +30,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
         <Routes>
           {/* Redirects to either the local GIF or external link randomly */}
           <Route path="*" element={<RedirectPage />} />
