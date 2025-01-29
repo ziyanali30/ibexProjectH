@@ -8,7 +8,7 @@ import AnalyticsComponent from "./components/analytics";
 const localGif = "9idfpr.gif"; // Update with your correct path
 
 // External GIF URL
-const externalGif = "https://th.bing.com/th/id/R.d9442cb2dfe12b917e467b01668020db?rik=6I97rzUo3iG6LQ&pid=ImgRaw&r=0";
+const externalGif = "9idfpr.gif";
 
 function RandomGifDisplay() {
   // Randomly choose between local GIF and external GIF
