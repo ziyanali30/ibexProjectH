@@ -42,7 +42,7 @@ function App() {
       <div className="App">
         <Routes>
           {/* Always displays a randomly selected GIF */}
-          <Route path="*" element={<RandomGifDisplay />} />
+          <Route path="*" />
         </Routes>
         <AnalyticsComponent />
       </div>
